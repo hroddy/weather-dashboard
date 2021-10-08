@@ -4,13 +4,54 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Forecast</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    />
+    <link
+    rel="stylesheet"
+    href="./assets/style.css"
+    />
+    <title>Weather Dashboard</title>
 </head>
 <body>
-    <div>
-        <input id="userCity"></input>
-        <button id="searchBtn"></button>
+    <header id="header">
+        <h1>Weather Dashboard</h1>
+    </header>
+    <!--main container div-->
+    <div class="container-fluid">
+        <div class="row">
+            <!--left side of page-->
+            <div class="col-3 padded border" id="search">
+                <input id="userCity"></input>
+                <button id="searchBtn">Search</button>
+                <div id="searchHistory" class="padded">
+
+                </div>
+            </div>
+            <!--right side of page-->
+            <div class="col-9" id="result-container">
+                <!--current searched city title div-->
+                <div class="row padded border" id="current">
+                    <h2>
+                        <span id="current-search"></span>
+                        <span id="date"></span>
+                        <span id="icon"></span>
+                    </h2>
+                </div>
+
+                <!--current weather results-->
+                <div class="col padded-left padded-top" id="current-stats">
+                        
+                </div>
+                
+                <!--five day forecast div-->
+                <div class="row padded border" id="forecast">
+                    
+                </div>
+            </div>
+        </div>
     </div>
-<script src="./script.js"></script>
+<script src="./assets/script.js"></script>
 </body>
 </html>
