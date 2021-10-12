@@ -2,10 +2,10 @@
 
 ## Table of Contents
 
-Description
-Website
-Screenshot
-Credit
+* [Description](#Description)
+* [Website](#Website)
+* [Screenshot](#Screenshot)
+* [Credit](#Credit)
 
 ## Description
 
