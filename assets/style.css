@@ -28,8 +28,36 @@
     border: 1px solid grey;
 }
 
-.search-history {
-    
+button {
+    border-radius: 25%;
+    background-color: royalblue;
+    color: white;
+    font-weight: bold;
+}
+
+.search-his-btn {
+    margin: 25px;
+    padding: 10px;
+}
+
+.low-uv {
+    background-color: green;
+    width: 10%;
+}
+
+.moderate-uv {
+    background-color: yellow;
+    width: 10%;
+}
+
+.high-uv {
+    background-color: orange;
+    width: 10%;
+}
+
+.very-high-uv {
+    background-color: red;
+    width: 10%;
 }
 
 #forecast {
@@ -39,5 +67,4 @@
 .forecast-day {
     background: royalblue;
     color: white;
-
 }
