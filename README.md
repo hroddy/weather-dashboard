@@ -14,7 +14,7 @@ Check the current and future weather of cities around the world with a single se
 ## Website
 
 View this page, hosted by Github:
-https://hroddy.github.io/weather-dashboards/
+https://hroddy.github.io/weather-dashboard/
 
 ## Screenshot
 
